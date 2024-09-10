@@ -240,15 +240,6 @@ main {
   transform: rotate(35deg);
 }
 
-.hand::before {
-  content: "";
-  width: 40px;
-  height: 90px;
-  background-color: #0D160B;
-  box-shadow: inset -10px 0 #aac;
-  border-radius: 40%;
-  border: 3px solid black;
-}
 
 
 #robot-shadow {
