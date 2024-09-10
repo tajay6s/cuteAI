@@ -250,16 +250,6 @@ main {
   border: 3px solid black;
 }
 
-.hand:last-child {
-  transform: rotate(240deg);
-  animation: rotate 1s infinite linear;
-}
-
-@keyframes rotate {
-  50% {
-    transform: rotate(300deg);
-  }
-}
 
 #robot-shadow {
   position: absolute;
