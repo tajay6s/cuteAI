@@ -27,6 +27,7 @@ main {
   position: relative;
   transform: translateY(0);
   animation: moveRobot 2s infinite ease;
+  margin-left:20px;
 }
 
 #head {
