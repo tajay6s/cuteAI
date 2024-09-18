@@ -12,7 +12,7 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #0D1B1E;
+  background-color: #303034;
 }
 
 #sketchb-board-con {
@@ -27,7 +27,6 @@ main {
   position: relative;
   transform: translateY(0);
   animation: moveRobot 2s infinite ease;
-  margin-left:20px;
 }
 
 #head {
@@ -241,12 +240,30 @@ main {
   transform: rotate(35deg);
 }
 
+.hand::before {
+  content: "";
+  width: 40px;
+  height: 90px;
+  background-color: #0D160B;
+  box-shadow: inset -10px 0 #aac;
+  border-radius: 40%;
+  border: 3px solid black;
+}
 
+.hand:last-child {
+  transform: rotate(325deg);
+}
+
+@keyframes rotate {
+  50% {
+    transform: rotate(300deg);
+  }
+}
 
 #robot-shadow {
   position: absolute;
   bottom: -10px;
-  margin-left:20px;
+  left: 10.5%;
   transform: translateX(-50%);
   width: 100px;
   height: 30px;
