@@ -20,7 +20,7 @@ main {
   height: 350px;
   display: flex;
   position: relative;
-  margin-left: 70px;
+  margin-left: 40px;
 }
 
 #sketchb-board {
