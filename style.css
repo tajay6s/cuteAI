@@ -221,46 +221,6 @@ main {
   box-shadow: inset 0 -8px #aac;
 }
 
-#hands {
-  position: absolute;
-  width: 110%;
-  height: 50%;
-  display: flex;
-  justify-content: space-between;
-  top: 34%;
-  left: 50%;
-  transform: translateX(-50%);
-}
-
-.hand {
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  transform: rotate(35deg);
-}
-
-.hand::before {
-  content: "";
-  width: 40px;
-  height: 90px;
-  background-color: #0D160B;
-  box-shadow: inset -10px 0 #aac;
-  border-radius: 40%;
-  border: 3px solid black;
-}
-
-.hand:last-child {
-  transform: rotate(325deg);
-}
-
-@keyframes rotate {
-  50% {
-    transform: rotate(300deg);
-  }
-}
-
 #robot-shadow {
   position: absolute;
   bottom: -10px;
